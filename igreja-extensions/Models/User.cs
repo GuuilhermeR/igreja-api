@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nrmcontrolextension.Models
+namespace igrejaextensions.Models
 {
     [BsonIgnoreExtraElements]
     public class User

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using nrmcontrolextension.Filters;
-using nrmcontrolextension.IServices;
-using nrmcontrolextension.Models;
+using igrejaextensions.Filters;
+using igrejaextensions.IServices;
+using igrejaextensions.Models;
 
 namespace nrmcontrolapi.Controllers
 {

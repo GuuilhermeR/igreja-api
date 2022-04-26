@@ -1,16 +1,16 @@
 ﻿using BibliotecaDLL.DbContexts;
 using MongoDB.Driver;
-using nrmcontrolextension.Filters;
-using nrmcontrolextension.IRepositories;
-using nrmcontrolextension.Models;
-using nrmcontrolextension.Utils;
+using igrejaextensions.Filters;
+using igrejaextensions.IRepositories;
+using igrejaextensions.Models;
+using igrejaextensions.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nrmcontrolextension.Repositories
+namespace igrejaextensions.Repositories
 {
     public class UserRepository : IUserRepository
     {

@@ -1,7 +1,7 @@
-﻿using nrmcontrolextension.IRepositories;
-using nrmcontrolextension.IServices;
-using nrmcontrolextension.Repositories;
-using nrmcontrolextension.Services;
+﻿using igrejaextensions.IRepositories;
+using igrejaextensions.IServices;
+using igrejaextensions.Repositories;
+using igrejaextensions.Services;
 
 namespace igreja_api
 {

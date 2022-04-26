@@ -1,12 +1,12 @@
-﻿using nrmcontrolextension.Filters;
-using nrmcontrolextension.Models;
+﻿using igrejaextensions.Filters;
+using igrejaextensions.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nrmcontrolextension.IServices
+namespace igrejaextensions.IServices
 {
     public interface IUserService
     {

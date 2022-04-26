@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Driver;
-using nrmcontrolextension.DbContexts;
-using nrmcontrolextension.Models;
+using igrejaextensions.DbContexts;
+using igrejaextensions.Models;
 
 namespace BibliotecaDLL.DbContexts
 {

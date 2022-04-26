@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using nrmcontrolextension.IServices;
-using nrmcontrolextension.Models;
+using igrejaextensions.IServices;
+using igrejaextensions.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;

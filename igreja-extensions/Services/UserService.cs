@@ -1,15 +1,15 @@
-﻿using nrmcontrolextension.Filters;
-using nrmcontrolextension.IRepositories;
-using nrmcontrolextension.IServices;
-using nrmcontrolextension.Models;
-using nrmcontrolextension.Utils;
+﻿using igrejaextensions.Filters;
+using igrejaextensions.IRepositories;
+using igrejaextensions.IServices;
+using igrejaextensions.Models;
+using igrejaextensions.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nrmcontrolextension.Services
+namespace igrejaextensions.Services
 {
     public class UserService : IUserService
     {
