@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igreja-api", "igreja-api\igreja-api.csproj", "{42D4C07C-CA7B-4707-943A-177A23631B01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nrmcontrolextension", "..\ALESSANDRO_AEXEMPLO\nrmcontrolapi\nrmcontrolextension\nrmcontrolextension.csproj", "{566C477A-6B84-4DB1-BB0C-70AE48C6CD85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D4C07C-CA7B-4707-943A-177A23631B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D4C07C-CA7B-4707-943A-177A23631B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D4C07C-CA7B-4707-943A-177A23631B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D4C07C-CA7B-4707-943A-177A23631B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566C477A-6B84-4DB1-BB0C-70AE48C6CD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566C477A-6B84-4DB1-BB0C-70AE48C6CD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566C477A-6B84-4DB1-BB0C-70AE48C6CD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566C477A-6B84-4DB1-BB0C-70AE48C6CD85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {130D22F0-EA47-4C29-AD03-519289011BA9}
+	EndGlobalSection
+EndGlobal
