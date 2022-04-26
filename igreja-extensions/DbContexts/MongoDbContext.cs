@@ -33,14 +33,6 @@ namespace BibliotecaDLL.DbContexts
             }
         }
 
-        public IMongoCollection<DespenseType> DespenseTypes
-        {
-            get
-            {
-                return Database.GetCollection<DespenseType>("DespenseType");
-            }
-        }
-
         public IMongoCollection<User> Users
         {
             get

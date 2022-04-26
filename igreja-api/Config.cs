@@ -14,9 +14,7 @@ namespace igreja_api
                 throw new ArgumentNullException(nameof(builder));
             }
 
-            builder.Services.AddScoped<IDespenseTypeRepository, DespenseTypeRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IDespenseTypeService, DespenseTypeService>();
             builder.Services.AddScoped<IUserService, UserService>();
         }
     }
