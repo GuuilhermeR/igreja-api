@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ALESSANDRO_AEXEMPLO\nrmcontrolapi\nrmcontrolextension\nrmcontrolextension.csproj" />
+    <ProjectReference Include="..\igreja-extensions\igrejaextensions.csproj" />
   </ItemGroup>
 
 </Project>
