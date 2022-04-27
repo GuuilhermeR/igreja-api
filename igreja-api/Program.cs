@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen(s =>
     s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
         Version = "V1",
-        Title = "Igreja Api",
+        Title = "Igreja API",
         Description = "Api for despense control",
     });
 });
@@ -45,7 +45,7 @@ if (builder.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Nrm Control Api V");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Igreja API");
         c.RoutePrefix = string.Empty;
     });
 }
