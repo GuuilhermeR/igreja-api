@@ -5,7 +5,7 @@ using igrejaextensions.Services;
 
 namespace igreja_api
 {
-    public class Config
+     public static class Config
     {
         public static void RegisterServices(WebApplicationBuilder builder)
         {

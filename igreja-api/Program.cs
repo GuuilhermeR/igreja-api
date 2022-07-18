@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen(s =>
     {
         Version = "V1",
         Title = "Igreja API",
-        Description = "Api for despense control",
+        Description = "Api for church",
     });
 });
 

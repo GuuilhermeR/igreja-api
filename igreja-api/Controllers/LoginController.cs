@@ -14,6 +14,7 @@ namespace igreja_api.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly IUserService _userService;
+        private const int TIME_TO_EXPIRE_MIN = 240;
 
         public LoginController(IConfiguration config, IUserService userService)
         {
@@ -34,11 +35,14 @@ namespace igreja_api.Controllers
                     }
                     var user = _userData;
 
+                    DateTime dateExpire = DateTime.UtcNow.AddMinutes(TIME_TO_EXPIRE_MIN);
+                    DateTime dataAgora = DateTime.UtcNow;
+
                     //create claims details based on the user information
                     var claims = new[] {
                         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                        new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
+                        new Claim(JwtRegisteredClaimNames.Iat, dataAgora.ToString()),
                         new Claim("UserId", user.UserId.ToString()),
                     };
 
@@ -48,7 +52,7 @@ namespace igreja_api.Controllers
                         _configuration["Jwt:Issuer"],
                         _configuration["Jwt:Audience"],
                         claims,
-                        expires: DateTime.UtcNow.AddMinutes(30),
+                        expires: dateExpire,
                         signingCredentials: signIn);
 
                     return Ok(new JwtSecurityTokenHandler().WriteToken(token));
